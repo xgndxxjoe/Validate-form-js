@@ -1,0 +1,61 @@
+.form{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: initial;
+    position: center;
+    color: black;
+    background-color: white;
+    line-height: 400%;
+    margin-left: 200px;
+}
+#sub{
+    position: center;
+    margin-left: 200px;
+}
+#name{
+    position: center;
+    margin-left: 100px;
+}
+#email{
+    position: center;
+    margin-left: 130px;
+    /*border: red;*/
+}
+#date{
+    position: center;
+    margin-left: 100px;
+}
+#from{
+    position: center;
+    margin-left: 100px;
+}
+#edu{
+    position: center;
+    margin-left: 110px;
+}
+#cmt{
+    position: center;
+    margin-left: 100px;
+}
+.val_error{
+    color: FF1F1F;
+}
+#name_error{
+    position: center;
+    margin-left: 175px;
+}
+#email_error{
+    position: center;
+    margin-left: 175px;
+}
+#date_error{
+    position: center;
+    margin-left: 175px;
+}
+#from_error{
+    position: center;
+    margin-left: 175px;
+}
+#cmt_error{
+    position: center;
+    margin-left: 175px;
+}

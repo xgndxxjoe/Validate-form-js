@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="form">
+            <form name="myForm" action="Register.html" method="POST" onsubmit="return(validateForm());">
+                <div>
+                    <label for="name">Họ và tên</label>
+                    <input id="name" name="nam" type="text" placeholder="Nhập Họ và tên">
+                    <div id="name_error" class="val_error"></div> 
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" name="ema" type="email" placeholder="Nhập Email">
+                    <div id="email_error" class="val_error"></div>
+                </div>
+                <div>
+                    <label for="date">Ngày sinh</label>
+                    <input id="date" name="dat" type="date" placeholder="Nhập ngày sinh">
+                    <div id="date_error" class="val_error"></div>
+                </div>
+                <div>
+                    <label for="from">Quê quán</label>
+                    <select id="from">
+                        <option value="Chon">Chọn</option>
+                        <option value="Hanoi">Hà Nội</option>
+                        <option value="Hochiminh">Hồ Chí Minh</option>
+                        <option value="Thaibinh">Thái Bình</option>
+                        <option value="Danang">Đà Nẵng</option>
+                        <option value="Hue">Huế</option>
+                    </select>
+                    <div id="from_error" class="val_error"></div>
+                </div>
+                <div>
+                    <label for="edu">Học vấn</label> 
+                    <input id="edu" type="radio" name="education" value="thpt" checked>THPT
+                    <input id="edu" type="radio" name="education" value="caodang">Cao đẳng
+                    <input id="edu" type="radio" name="education" value="daihoc">Đại học
+                    <div id="edu_error" class="val_error"></div>
+                </div>
+                <div>
+                    <label for="cmt">Giới thiệu</label>
+                    <textarea id="cmt" name="cm" cols="75" rows="5" placeholder="Giới thiệu bản thân"></textarea>
+                    <div id="cmt_error" class="val_error"></div>
+                </div>
+                <input id = "sub" type="submit" name="taotaikhoan" value="Tạo tài khoản">
+            </form>
+        </div>
+        <script type="text/javascript" src="form.js"></script>        
+    </body>
+</html>
